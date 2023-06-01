@@ -1,8 +1,9 @@
 import React from "react";
 import { Button, View, Text } from "react-native";
 import { StyleSheet } from "react-native";
-import CsvToGraph from "../Diabetes/CsvToGraph";
+import CsvToGraph from "../components/Diabetes/CsvToGraph";
 import { ScrollView } from "react-native";
+
 export default function Diabetes() {
   dummyProps1 = {
     color: "#FDE74C",
