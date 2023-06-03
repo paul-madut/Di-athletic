@@ -7,13 +7,13 @@ import WelcomeWindow from "./Windows/WelcomeWindow";
 const Stack = createStackNavigator();
 
 const StackNavigator = () => {
-  const user = false;
+  const user = true;
   return (
     <Stack.Navigator>
       {user ? (
         <>
-          <Stack.Screen name="Diabetes" component={Diabetes} />
           <Stack.Screen name="Fitness" component={Fitness} />
+          <Stack.Screen name="Diabetes" component={Diabetes} />
           <Stack.Screen name="Food" component={Food} />
         </>
       ) : (
