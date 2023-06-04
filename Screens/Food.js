@@ -5,8 +5,8 @@ import { StyleSheet } from "react-native";
 export default function Food() {
   return (
     <>
-      <View style={styles.loginButton}>
-        <Text style={styles.buttonText}>Food</Text>
+      <View>
+        <Text>Food</Text>
       </View>
     </>
   );
